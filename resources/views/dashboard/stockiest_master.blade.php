@@ -356,6 +356,25 @@
 
             </ul>
           </li>
+          <li class="nav-item">
+            <a href="{{ route('xyz') }}" class="nav-link">
+              <i class="nav-icon fas fa-edit"></i>
+              <p>
+                XYZ
+
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="{{ route('stockiest.xyz') }}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>XYZ</p>
+                </a>
+              </li>
+
+            </ul>
+          </li>
 
 
 

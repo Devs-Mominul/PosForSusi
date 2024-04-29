@@ -116,6 +116,9 @@ Route::get('/stockiest/for/stockiest/add',[UserAdminController::class,'stockiest
 Route::post('/stockiest/for/stockiest/add/post',[UserAdminController::class,'stockiest_stockiest_for_add_post'])->name('stockiest.stockiest.for.add.post');
 //xyz controller start
 Route::get('/xyz',[XyzController::class,'xyz'])->name('xyz');
+Route::get('/xyz/depo',[XyzController::class,'depo_xyz'])->name('depo.xyz');
+Route::get('/xyz/stockiest',[XyzController::class,'stockiest_xyz'])->name('stockiest.xyz');
+
 Route::get('/transacton',[XyzController::class,'transaction_action'])->name('transaction.action');
 //user photo add
 Route::get('/user/admin/photo',[CustomUserController::class,'profile'])->name('custom.admin.user.profile');

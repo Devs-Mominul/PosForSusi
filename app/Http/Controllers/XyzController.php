@@ -11,6 +11,12 @@ class XyzController extends Controller
     function xyz(){
         return view('XYZ.xyz');
     }
+    function depo_xyz(){
+        return view('XYZ.depo_xyz');
+    }
+    function stockiest_xyz(){
+        return view('XYZ.xyz_stockiest');
+    }
     function transaction_action(Request $request){
         // $transactions=DB::table('transactions')->where('invoice_no', $request->invoice_no)->first();
         $transactions=Transaction::where('invoice_no',$request->invoice_no)->first();

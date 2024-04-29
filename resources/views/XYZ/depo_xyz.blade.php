@@ -1,5 +1,5 @@
-@extends('dashboard.admin_master')
-@section('admin')
+@extends('dashboard.depo_master')
+@section('depo')
 <div class="col-lg-7 mx-auto">
     <div class="card">
         <div class="card-header">
